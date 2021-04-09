@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 
 function Navigator() {
@@ -12,9 +11,8 @@ function Navigator() {
 
     return (
         <div>
-            <h1>DreamShark</h1>
             <button onClick={Create}>Create</button>
-            <button onClick={Contribute}>Consstribute</button>
+            <button onClick={Contribute}>Contribute</button>
         </div>
     );
 }

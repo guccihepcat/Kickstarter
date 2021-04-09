@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Navigator from "./Navigator";
+import Home from "./Home";
 import { createBrowserHistory } from 'history';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 export default class Routes extends Component {
@@ -8,7 +9,7 @@ export default class Routes extends Component {
         return (
             <Router history={createBrowserHistory}>
                 <Switch>
-                    <Route path="/Navigator" exact component={Navigator} />
+                    <Route path="/" exact component={Home} />
                 </Switch>
             </Router>
         )
