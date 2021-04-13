@@ -1,18 +1,12 @@
 import React from 'react';
-
+import Create from './Create';
+import { Button } from 'react-bootstrap';
 
 function Navigator() {
-    const Create = () => {
-        console.log("Create");
-    };
-    const Contribute = () => {
-        console.log("Contribute")
-    };
 
     return (
         <div>
-            <button onClick={Create}>Create</button>
-            <button onClick={Contribute}>Contribute</button>
+            <Button variant="btn btn-success" onClick={() => Create.push('/Create')}>Create a Project</Button>
         </div>
     );
 }
