@@ -4,7 +4,24 @@ function Create() {
 
     return (
         <div>
-            <h1>DreamShark</h1>
+            <div style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+            }}>
+                <img src="/dreamshark-logo-resize.png" alt="" />
+            </div>
+
+            <div style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+            }}>
+                <h1>DreamShark</h1>
+            </div>
+
+            <h2>Create a Project</h2>
+
             <form>
                 <label>
                 Project Name:
